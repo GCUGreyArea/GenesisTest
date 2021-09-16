@@ -34,7 +34,7 @@ There is no time limit on this excersise, but it should be completed in a reason
 your customer would be satisfied.
 
 1. This project should be implimented in one of the following languages C, C++, or java.
-2. You will need to proved a build system for your project that
+2. You will need to proved a build system for your project that.
     2.1. Builds the project.
     2.2. Runs the unit test without needing to execute your 'main' function.
     2.3. Additionaly, if it is written in c or c++ and you have the time, provide a function through your build system that
