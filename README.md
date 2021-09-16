@@ -35,9 +35,9 @@ your customer would be satisfied.
 
 1. This project should be implimented in one of the following languages C, C++, or java.
 2. You will need to proved a build system for your project that.
-    2.1. Builds the project.
-    2.2. Runs the unit test without needing to execute your 'main' function.
-    2.3. Additionaly, if it is written in c or c++ and you have the time, provide a function through your build system that
+    1. Builds the project.
+    2. Runs the unit test without needing to execute your 'main' function.
+    3. Additionaly, if it is written in c or c++ and you have the time, provide a function through your build system that
          that checks for memory leaks, and reports what it finds.
 3. You may use any availible xml processing library to achieve the functionality of the program, or if you wish, impliment your own translation system.
 4. You may use any availible collection, either suppled as part of the compiler or availible as open source,
