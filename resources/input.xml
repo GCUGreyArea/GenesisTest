@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file should not be changed or reordered, other than through some function of the software you impliment -->
+<objects>
+    <object>
+        <os>linux</os>
+        <software>jenkins</software>
+        <version>12.4</version>
+        <key>internal-build</key>
+        <user>root</user>
+        <action>rpc</action>
+        <call>run-build</call>
+    </object>
+    <object>
+        <os>windows-10</os>
+        <software>circleci</software>
+        <version>2.14</version>
+        <key>internal-integration</key>
+        <user>admin</user>
+        <action>rpc</action>
+        <call>run-integration</call>
+    </object>
+    <object>
+        <type>remote</type>
+        <os>linux</os>
+        <container>unknown</container>
+        <key>cloudbess-2</key>
+        <software>CloudBess</software>
+        <user>admin</user>
+        <action>rpc</action>
+        <call>run-integration</call>
+    </object>
+    <object>
+        <type>remote</type>
+        <os>windows nt</os>
+        <container>Docker</container>
+        <version>12.4</version>
+        <software>jenkins</software>
+        <key>jenkins-5</key>
+        <user>root</user>
+        <action>rpc</action>
+        <call>run-build</call>
+    </object>
+    <object>
+        <os>linux</os>
+        <key>integration-machine-1</key>
+        <user>petter.rankin</user>
+        <description>Local engineering hub</description>
+        <action>ssh</action>
+        <endpoint>172.16.45.32</endpoint>
+        <software>jenkins</software>
+        <call>script</call>
+        <script>integrate.sh</script>
+        <directory>/home/${user}/workspace/${product}/</directory>
+    </object>
+    <object>
+        <os>linux</os>
+        <key>build-machine-5</key>
+        <user>frank.harris</user>
+        <description>Local engineering hub</description>
+        <action>ssh</action>
+        <endpoint>192.168.165.21</endpoint>
+        <call>script</call>
+        <script>build.sh</script>
+        <directory>/home${user}/Documents/workspace/${product}</directory>
+        <argument>integrate</argument>
+    </object>
+    <object>
+        <os>linux</os>
+        <key>intgration-1</key>
+        <user>tony.welbourn</user>
+        <description>Local engineering hub</description>
+        <action>ssh</action>
+        <endpoint>192.168.165.177</endpoint>
+        <script>build.sh</script>
+        <directory>/home/${user}/Documents/workspace/${product}</directory>
+        <argument>release</argument>
+        <argument>debug</argument>
+    </object>
+    <object>
+        <os>linux</os>
+        <key>build-machine-16</key>
+        <user>tony.welbourne</user>
+        <description>Local engineering hub</description>
+        <action>ssh</action>
+        <endpoint>192.168.165.34</endpoint>
+        <script>build.sh</script>
+        <directory>/home/${user}/Documents/workspace/${product}/</directory>
+    </object>
+</objects>
