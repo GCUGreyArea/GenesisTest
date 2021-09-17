@@ -50,9 +50,9 @@ Aditionally, if you have time, consider impliment a 'load' command and a 'reorde
 # Specific Instructionns
 1. This project should be implimented in one of the following languages C, C++, or java.
 2. You will need to proved a build system for your project that:
-  * Your build system should Builds the project so that it can be executed and run by your customer in the simplest way posible.
-  * Aditionally, if you're build systems doesn't already do this, you might wish to execute any functional tests you have provided from the build system.
-  * Additionaly, if you are implimenting in c or c++ you might want to provide a function through your build system that that checks memory use, and reports errors.
+   * Your build system should Builds the project so that it can be executed and run by your customer in the simplest way posible.
+   * Aditionally, if you're build systems doesn't already do this, you might wish to execute any functional tests you have provided from the build system.
+   * Additionaly, if you are implimenting in c or c++ you might want to provide a function through your build system that that checks memory use, and reports errors.
 3. DO NOT COMMIT YOUR PROJECT TO THE SAME REPOSITORY YOU GOT THE BRIEF FROM.
 
 # Submition instructions
