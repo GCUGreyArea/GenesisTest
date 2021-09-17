@@ -50,10 +50,10 @@ Aditionally, if you have time, consider impliment a 'load' command and a 'reorde
 # Specific Instructionns
 1. This project should be implimented in one of the following languages C, C++, or java.
 2. You will need to proved a build system for your project that:
-3. Your build system should Builds the project so that it can be executed and run by your customer in the simplest way posible.
-4. Aditionally, if you're build systems doesn't already do this, you might wish to execute any functional tests you have provided from the build system.
-5. Additionaly, if you are implimenting in c or c++ you might want to provide a function through your build system that that checks memory use, and reports errors.
-6. DO NOT COMMIT YOUR PROJECT TO THE SAME REPOSITORY YOU GOT THE BRIEF FROM.
+  *1.* Your build system should Builds the project so that it can be executed and run by your customer in the simplest way posible.
+  *2.* Aditionally, if you're build systems doesn't already do this, you might wish to execute any functional tests you have provided from the build system.
+  *3.* Additionaly, if you are implimenting in c or c++ you might want to provide a function through your build system that that checks memory use, and reports errors.
+  *4.* DO NOT COMMIT YOUR PROJECT TO THE SAME REPOSITORY YOU GOT THE BRIEF FROM.
 
 # Submition instructions
 This project needs to be submited as a link to your code in an accessible repository such as github. If you do not have a github account (or similar) you should create one. This is free to do and wil serve you well in your carrer as a software engineer.
